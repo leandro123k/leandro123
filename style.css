@@ -1,0 +1,8 @@
+:root{
+    --cor-de-fundo: #1E1E1E;
+    --amarelo: #FCFF57;
+    --vermelho: #FF0000;
+    --botão-ativo: rgba(254, 96, 96, 0.72);
+    --botao-inativo: rgba(255, 92, 92, 0.73);
+    --texto-fundo: rgba(255, 87, 87, 0.32); 
+}
