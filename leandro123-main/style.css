@@ -1,0 +1,53 @@
+:root{
+    --cor-de-fundo: #1E1E1E;
+    --amarelo: #FCFF57;
+    --vermelho: #FF0000;
+    --botão-ativo: rgba(254, 96, 96, 0.72);
+    --botao-inativo: rgba(255, 92, 92, 0.73);
+    --texto-fundo: rgba(255, 87, 87, 0.32); 
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 12000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.titulo-principal{
+    text-align: left;
+    width: 100%;
+    font-size: 32px;
+}
+
+.titulo-principal span{
+    color: var(--preto);
+}
+
+.botao{
+    font-family: "Crakra Petch" , sans-serif;
+    Background-color: var(--botao-inativo);
+    color: var(--preto);
+    display: flex;
+    justify-content: center;
+    padding: lem;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+    border-bottom: 4px solid var(--botao-ativo);
+    border-left: 2px solid var(--botao-ativo);
+    border-right: 2px solid var(--botao-ativo);
+    border-top: none;
+}
+
+.botoes{
+    display: block;
+}
+@media screen and (min-width: 768px) {
+    .botoes{
+        display: flex;
+    }
+}
